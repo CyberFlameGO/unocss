@@ -10,7 +10,7 @@
     "fetch": "esno scripts/fetch.ts"
   },
   "devDependencies": {
-    "@antfu/utils": "^0.5.2",
+    "@antfu/utils": "^0.7.3",
     "@unocss/autocomplete": "workspace:*",
     "@unocss/nuxt": "workspace:*",
     "@unocss/shared-docs": "workspace:*",
