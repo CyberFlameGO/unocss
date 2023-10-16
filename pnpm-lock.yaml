@@ -1055,6 +1055,10 @@ packages:
       - supports-color
     dev: true
 
+  /@fastify/busboy/2.0.0:
+    resolution: {integrity: sha512-JUFJad5lv7jxj926GPgymrWQxxjPYuJNiNjNMzqT+HiuP6Vl3dk5xzG+8sTX96np0ZAluvaMzPsjhHZ5rNuNQQ==}
+    engines: {node: '>=14'}
+
   /@humanwhocodes/config-array/0.9.5:
     resolution: {integrity: sha512-ObyMyWxZiCu/yTisA7uzx81s40xR2fD5Cg/2Kq7G02ajkNubJf6BopgDTmDyc3U7sXpNKM8cYOw7s7Tyr+DnCw==}
     engines: {node: '>=10.10.0'}
@@ -7022,7 +7026,7 @@ packages:
       destr: 1.1.1
       node-fetch-native: 0.1.3
       ufo: 0.8.4
-      undici: 5.2.0
+      undici: 5.26.3
 
   /on-finished/2.4.1:
     resolution: {integrity: sha512-oVlzkg3ENAhCk2zdv7IJwd/QUD4z2RxRwpkcGY8psCVcCYZNq4wYnVWALHM+brtuJjePWiYF/ClmuDr8Ch5+kg==}
@@ -9168,9 +9172,11 @@ packages:
       - webpack
     dev: true
 
-  /undici/5.2.0:
-    resolution: {integrity: sha512-XY6+NS3WH9b3TKOHeNz2CjR+qrVz/k4fO9g3etPpLozRvULoQmZ1+dk9JbIz40ehn27xzFk4jYVU2MU3Nle62A==}
-    engines: {node: '>=12.18'}
+  /undici/5.26.3:
+    resolution: {integrity: sha512-H7n2zmKEWgOllKkIUkLvFmsJQj062lSm3uA4EYApG8gLuiOM0/go9bIoC3HVaSnfg4xunowDE2i9p8drkXuvDw==}
+    engines: {node: '>=14.0'}
+    dependencies:
+      '@fastify/busboy': 2.0.0
 
   /unenv/0.5.2:
     resolution: {integrity: sha512-dojYcCqOFEWZosvqWs/AEaEfM/tLJexMKBW0ebkn6JKfEnYR5fKxbYJB8QV9kAPXV/ENseeWQkv6uJ3KCXz+1g==}
